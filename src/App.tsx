@@ -35,3 +35,5 @@ export default App;
 // git add .
 // git commit -m "First Commit"
 // git log-online
+// npm i react-icons@4.7.1
+//
