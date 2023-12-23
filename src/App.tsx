@@ -7,6 +7,7 @@ import {
   interactivity,
 } from "@chakra-ui/react";
 import Navbar from "./components/NavBar";
+import GameGrid from "./components/GameGrid";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <GridItem area="aside">Aside</GridItem>
       </Show>
       <GridItem area="main">Main</GridItem>
+      <GameGrid />
     </Grid>
   );
 }
