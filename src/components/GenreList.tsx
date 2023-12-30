@@ -1,11 +1,11 @@
-import React from "react";
 import useGenre from "../hooks/useGenre";
 
 const GenreList = () => {
-  const { error, genres, isLoading } = useGenre();
+  // const { error, data, isLoading } = useData<Genre>("/genres");
+  const { data } = useGenre();
   return (
     <>
-      {genres.map((genre) => (
+      {data.map((genre) => (
         <li key={genre.id}>{genre.name}</li>
       ))}
     </>
